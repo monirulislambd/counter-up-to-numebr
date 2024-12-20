@@ -34,7 +34,7 @@ ul li{
     display: table;
 }
 .section-padding{
-    padding: 100px;
+    padding: 80px;
 }
 .container{
     max-width: 1140px;
@@ -137,15 +137,30 @@ ul li{
     transition: 3s;
 }
 
-@media screen and (max-width:991.98px) {
+@media screen and (max-width:1199.98px) {
     .container{
         max-width: 90%;
     }
+    .about-content ul li{
+        width: 100%;
+        float: none;
+        margin-top: 5px;
+    }
+
+}
+
+@media screen and (max-width:991.98px) {
+   
     .section-title p{
         width: 90%;
     }
     .section-padding{
         padding: 60px 60px;
+    }
+    .about-content ul li{
+        width: 50%;
+        float: left;
+        margin-top: 5px;
     }
     .about-grid-container{
         grid-template-columns: 1fr;
